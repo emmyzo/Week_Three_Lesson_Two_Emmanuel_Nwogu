@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    background-color: DodgerBlue;
+}
+  
+.flex-item{
+    background-color: #f1f1f1;
+    margin: 50px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.nested-flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.nested-flex-item{
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 20px;
+}
